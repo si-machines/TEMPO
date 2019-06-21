@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-	<node name="lookat_sim" pkg="petri" type="lookat_sim.py" output="screen"/>
-	<node name="move_sim" pkg="petri" type="move_sim.py" output="screen"/>
-	<node name="speech_sim" pkg="petri" type="speech_sim.py" output="screen"/>
-	<node name="face_detection" pkg="petri" type="face_detector_sim.py" output="screen"/>
-</launch>
